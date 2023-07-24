@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="/index.css">
+</head>
+<body>
+    <header>
+        <h1>Love Calculator</h1>
+    </header>
+    <main>
+        <section class="calculator">
+            <h2>Calculate Your Love</h2>
+            <div class="form">
+                <label for="yourName">Your Name:</label>
+                <input type="text" id="yourName" required>
+                <label for="partnerName">Partner's Name:</label>
+                <input type="text" id="partnerName" required>
+                <button onclick="calculateLove()">Calculate</button>
+            </div>
+            <div class="result" id="result">
+                <!-- The love calculation result will be displayed here -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Anuj Pingua. All rights reserved.</p>
+    </footer>
+
+    <script src="/index.js"></script>
+</body>
+</html>
